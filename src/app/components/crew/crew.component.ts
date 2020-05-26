@@ -26,7 +26,7 @@ export class CrewComponent implements OnInit {
  
   dataTripulacion: any = [{
     nombre: "Bender",
-    imagen: "../../../assets/img/bender.png"
+    imagen: "PlanetExpress/assets/img/bender.png"
   },
   {
     nombre: "Fry",
