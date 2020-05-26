@@ -26,15 +26,15 @@ export class CrewComponent implements OnInit {
  
   dataTripulacion: any = [{
     nombre: "Bender",
-    imagen: "/assets/img/bender.png"
+    imagen: "../../../assets/img/bender.png"
   },
   {
     nombre: "Fry",
-    imagen: "../../assets/img/fry.png"
+    imagen: "../../../assets/img/fry.png"
   },
   {
     nombre: "Lila",
-    imagen: "../../assets/img/leela.png"
+    imagen: "../../../assets/img/leela.png"
   }
   ];
 
