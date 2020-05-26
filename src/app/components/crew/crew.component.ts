@@ -30,36 +30,36 @@ export class CrewComponent implements OnInit {
   },
   {
     nombre: "Fry",
-    imagen: "/../../../assets/img/fry.png"
+    imagen: "assets/img/fry.png"
   },
   {
     nombre: "Lila",
-    imagen: "../../../assets/img/leela.png"
+    imagen: "assets/img/leela.png"
   }
   ];
 
 
   dataTierra: any = [{
     nombre: "Amy",
-    imagen: "../../assets/img/amy.png"
+    imagen: "assets/img/amy.png"
   },
   {
     nombre: "Hermes",
-    imagen: "../../assets/img/hermes.png"
+    imagen: "assets/img/hermes.png"
   },
   {
     nombre: "Scruffy",
-    imagen: "../../assets/img/Scruffy.png"
+    imagen: "assets/img/Scruffy.png"
   },
   {
     nombre: "Soiberg",
-    imagen: "../../assets/img/soiberg.png"
+    imagen: "assets/img/soiberg.png"
   }
   ];
 
   dataFundador: any = [{
     nombre: "Hubert Farnsworth",
-    imagen: "../../assets/img/profesor.png"
+    imagen: "assets/img/profesor.png"
   }]
 
   ngOnInit(): void {

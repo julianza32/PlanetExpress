@@ -15,7 +15,7 @@ export class IntergalacticComponent implements OnInit {
   txtTall: any;
   c3: any;
   price: any;
-  imagenes = "../../assets/img/box-clipart.png";
+  imagenes = "assets/img/box-clipart.png";
 
 
 

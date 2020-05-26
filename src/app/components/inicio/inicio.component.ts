@@ -9,12 +9,12 @@ import { HostListener } from "@angular/core";
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
-  audio = "../../assets/audio/Sound.mp3"
+  audio = "assets/audio/Sound.mp3"
   scrHeight: any;
   scrWidth: any;
   claseTitulo: string;
   claseFondo: any;
-  naveImagen = "../../assets/img/nave3.jpg"
+  naveImagen = "assets/img/nave3.jpg"
   ngOnInit(): void {
   }
 

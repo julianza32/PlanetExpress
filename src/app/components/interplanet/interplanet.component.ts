@@ -15,7 +15,7 @@ export class InterplanetComponent implements OnInit {
   txtTall: any;
   c3: any;
   price: any;
-  imagenes = "../../assets/img/box-clipart.png";
+  imagenes = "assets/img/box-clipart.png";
 
   calcularPrecio() {
     this.txtLarge = this.angForm.controls['large'].value;
