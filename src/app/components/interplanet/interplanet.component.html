@@ -1,0 +1,66 @@
+<div class="fondo_superior row center">
+    <h1 class="titulo">Envios interplanetarios</h1>
+</div>
+<div class="container row contenedor">
+    <div class="contenedorForm col m6 s12">
+        <h5>Dimensiones del paquete.</h5>
+        <form [formGroup]="angForm" (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="large" formControlName="large" type="number">
+                    <label for="large">Largo del paquete en Cm</label>
+                    <div class="input-field col s12"
+                        *ngIf="angForm.controls['large'].invalid && (angForm.controls['large'].dirty || angForm.controls['large'].touched)"
+                        class="alert alert-danger">
+                        <div *ngIf="angForm.controls['large'].errors.required">
+                            <label>Largo es requerido.</label>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="breadth" formControlName="breadth" type="number">
+                    <label for="breadth">Ancho del paquete en Cm</label>
+                    <div class="input-field col s12"
+                        *ngIf="angForm.controls['breadth'].invalid && (angForm.controls['breadth'].dirty || angForm.controls['breadth'].touched)"
+                        class="alert alert-danger">
+                        <div *ngIf="angForm.controls['breadth'].errors.required">
+                            <label>Ancho es requerido.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="tall" formControlName="tall" type="number">
+                    <label for="tall">Alto del paquete en Cm</label>
+                    <div class="input-field col s12"
+                        *ngIf="angForm.controls['tall'].invalid && (angForm.controls['tall'].dirty || angForm.controls['tall'].touched)"
+                        class="alert alert-danger">
+                        <div *ngIf="angForm.controls['tall'].errors.required">
+                            <label>Alto es requerido.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                   Fecha de envio 
+                    <input id="fecha" type="date" formControlName="dateInter"required>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Calcular
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+
+
+        </form>
+
+    </div>
+    <div class="contenedorImg col m6 s12">
+        <img [src]="imagenes" class="imgPaquete" alt="">
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.nav {
+    background-color: #6cc46c;
+    padding-left: 10px;
+    font-family: 'Futurama bold';
+}
+
+.nav ul a {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-wrapper ul li {
+    transition: 0.5s;
+}
+
+.nav-wrapper ul li:hover {
+    background-color: #eb1b23;
+}
+
+.imagenLogo {
+    width: 68px;
+}
+.sLink:hover {
+    background-color: #eb1b23;
+}
+
+@media only screen and (max-width: 600px) {
+    .imagenLogo{
+        height: 56px;
+        width: 56px;
+    }
+}

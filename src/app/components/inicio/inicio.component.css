@@ -1,0 +1,51 @@
+.fondo{
+    background-image: url('../../../assets/img/161426.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    font-family: 'Futurama bold';
+    padding: 0 30px;
+    margin-bottom: 0;
+
+}
+
+.conteTitulo{
+    background-color: rgba(	111,193,109,0.8);
+    border-radius: 15px;
+}
+.contenedor{
+    padding: 40px 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.imagenNave{
+    border-radius: 50%;
+    padding: 10px;
+}
+.contendorTexto{
+    background-color:rgba(99, 185, 218,0.9);
+    font-family: 'Futurama bold';
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    border-radius: 15px;
+}
+.interior{
+    background-image: url('../../../assets/img/interior.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    border-radius: 15px;
+    height: 444px;
+}
+.fondoLetras{
+    background-color:rgba(0, 0, 0,0.5);
+
+}
+

@@ -1,0 +1,56 @@
+
+.fondo_superior{
+    height: 75vh;
+    width: 100%;
+    background-image: url('../../../assets/img/intergalactic.jpg');
+}
+.titulo{
+  margin: 0;
+  padding: 0;
+  font-family:'Futurama title';
+  color:white;  
+}
+.contenedor{
+    margin-top: -300px;
+    background-color: #ffffff;
+    z-index: 100;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: stretch; 
+    font-family: 'Futurama bold';
+    border-bottom: 2px solid #eb1b23;
+}
+
+  .input-field input[type=number]:focus + label, .input-field input[type=text]:focus + label {
+    color: #eb1b23;
+  }
+  /* label underline focus color */
+  .input-field input[type=number]:focus, .input-field input[type=text]:focus {
+    border-bottom: 1px solid #eb1b23;
+    box-shadow: 0 1px 0 0 #eb1b23;
+  }
+  .btn{
+    font-family: 'Futurama bold';
+  }
+  .input-field input[type=date]{
+    font-family: 'Futurama bold';
+  }
+.imgPaquete{
+    width: 250px;
+    height: 250px;
+}
+.contenedorImg{
+    background-color: #6cc46c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+
+}
+

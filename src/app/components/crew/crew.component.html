@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="contenedor">
+        <h3 class="titulo">Tripulacion</h3>
+        <div *ngFor="let datoCrew of dataTripulacion" class="card">
+            <div class="card-image cardImg">
+                <img src="{{datoCrew.imagen}}" class="cardImg materialboxed" alt="">
+                <span class="card-title">{{datoCrew.nombre}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor">
+        <h3 class="titulo">Personal en planeta tierra</h3>
+        <div *ngFor="let datoCrew of dataTierra" class="card">
+            <div class="card-image cardImg">
+                <img src="{{datoCrew.imagen}}" class="cardImg materialboxed" alt="">
+                <span class="card-title">{{datoCrew.nombre}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor">
+        <h3 class="titulo">Nuestro fundador</h3>
+        <div *ngFor="let datoCrew of dataFundador" class="card">
+            <div class="card-image cardImg">
+                <img src="{{datoCrew.imagen}}" class="cardImg materialboxed" alt="">
+                <span class="card-title">{{datoCrew.nombre}}</span>
+            </div>
+        </div>
+    </div>
+</div>

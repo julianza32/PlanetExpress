@@ -1,0 +1,25 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.titulo{
+    font-family: 'Futurama bold';
+    width: 100%;
+}
+
+.card{
+    background-color: #6cc46c; 
+    padding: 10px;
+   
+}
+.cardImg{
+    width: 250px;
+    height: 200px;
+}
+.cardImg span{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}

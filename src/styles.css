@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Futurama Bold';
+    src: url('assets/fonts/fr-bold.ttf');
+}
+ 
+
+@font-face {
+    font-family: 'Futurama title';
+    src: url('assets/fonts/fr-title.ttf');
+}
+
+
+@font-face {
+    font-family: 'Futurama hero';
+    src: url('assets/fonts/fr-fal1.ttf');
+}
+
+
+.datepicker-date-display{
+    background-color: #eb1b23;
+}
+.datepicker-table td.is-selected{
+    background-color: #6cc46c;
+
+}
+.datepicker-table td.is-today{
+    color: #eb1b23;
+}

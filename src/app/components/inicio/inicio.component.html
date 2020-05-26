@@ -1,0 +1,15 @@
+<div class="fondo row">
+    <audio [src]="audio" autoplay></audio>
+    <div class="col l6 offset-l6 s12 conteTitulo">
+        <h1 [ngClass]="claseTitulo" class="white-text">Los mensajeros son reemplazables, sus envíos no!!</h1>
+    </div>
+</div>
+<div class="contenedor row">
+    <img (mouseover)='over()' (mouseout)='out()' [src]="naveImagen" class="col l6 s12 imagenNave">
+    <div [ngClass]="claseFondo" class="contendorTexto col l6 s12">
+        <p class="white-text fondoLetras">
+            Nuestros repartidores estan fuertemente capacitados para ir a cualquier parte del mundo, ademas son los
+            unicos en arriesgar su propia vida para entregar sus pedidos.
+        </p>
+    </div>
+</div>
