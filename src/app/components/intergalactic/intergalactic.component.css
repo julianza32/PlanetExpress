@@ -51,6 +51,8 @@
     .contenedor{
         flex-direction: column-reverse;
     }
-
+    .tituloPage{
+      font-size: 2.1rem;
+    }
 }
 
